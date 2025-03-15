@@ -2,12 +2,9 @@ import os               #PEP 8 style -- Standard library imports, third-party im
 import sys
 import contextlib
 from math import floor
-from setproctitle import setproctitle
 
 import pygame
 import vlc
-
-setproctitle("Baise Media Player")
 
 
 
@@ -233,7 +230,7 @@ class ErrorManager:                                 #Class for exception handlin
         
         if not fatal:
             pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT), pygame.RESIZABLE)
-            pygame.display.set_caption("Media Player Script")
+            pygame.display.set_caption("Baise Media Player")
         
         self.error_active = False
 
