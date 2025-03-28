@@ -6,7 +6,7 @@ from setproctitle import setproctitle
 
 import pygame
 import vlc
-
+ 
 setproctitle("Baise Media Player")
 
 
